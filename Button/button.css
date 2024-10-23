@@ -1,0 +1,144 @@
+.button5{
+    background-color: brown;
+    margin: 10px 10px;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    transition: 0.4s;
+    display: inline-block;
+}
+.button5{
+    cursor: not-allowed;
+ }
+ 
+.button1{
+    background-color: brown;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    padding: 20px;
+    transition: all 0.6s;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+
+}
+.button1 span{
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+    display: inline-block;
+}
+.button1 span:after{
+    content: "\00bb";
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    position: absolute;
+    opacity: 0;
+}
+.button1:hover span{
+    padding-right: 25px;
+}
+.button1:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+ 
+
+.button2{
+   background-color: sienna;
+    border: none;
+   color: white;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration:0.5s ;
+}
+.button2:after{
+    content: "";
+    background-color: aquamarine;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120px;
+    opacity: 0;
+    transition: all 0.8s;
+}
+.button2:active:after{
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s;
+}
+.button3{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: 40px;
+    border-radius: 6px;
+    width: 200px;
+    height: 80px;
+    transition: 0.5s;
+    box-shadow: 0px 9px red;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: rgb(117, 190, 7);
+}
+.button3:active{
+    background-color: rgb(117, 190, 7) ;
+    box-shadow: 0px 4px rgb(17, 17, 17);
+   transform: translateY(9px);
+}
+
+.button4{
+    background-color: sienna;
+     border: none;
+    color: white;
+     display: inline-block;
+     border-radius: 6px;
+     text-align: center;
+     font-size: 28px;
+     padding: 20px;
+     width: 200px;
+     cursor: pointer;
+     position: relative;
+     background-image: linear-gradient();
+     overflow: hidden;
+     transition-duration:0.5s ;
+ }
+ .button4:after{
+     content: "";
+     background-color: aquamarine;
+     display: block;
+     position: absolute;
+     padding-top: 300%;
+     padding-left: 350%;
+     margin-left: -20px !important;
+     margin-top: -120px;
+     opacity: 0;
+     transition: all 0.8s;
+ }
+ .button4:active:after{
+ padding: 0;
+ margin: 0;
+ opacity: 1;
+ transition: 0s;
+ }
+ 
